@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CONFIG>
+    <db>new</db>
+    <host>localhost</host>
+    <user>root</user>
+    <passwd>galaxy</passwd>
+    <table>table1</table>
+    <indexDir>/home/galaxy/SE_index</indexDir>
+    <resultDir>/home/galaxy/SE_result</resultDir>
+    <fieldFile>field_config.txt</fieldFile>
+    <stopwordsFile>stopwords.txt</stopwordsFile>
+    <defaultField>summary</defaultField>
+    <allSize>200000</allSize>
+</CONFIG>

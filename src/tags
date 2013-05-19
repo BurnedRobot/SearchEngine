@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BinaryListPrint	SEUtility/File_RW.py	/^def BinaryListPrint(input_list,out_file=stdout):$/;"	f
+Db_Access_Info	SEPreprocess/MysqlConnection.py	/^class Db_Access_Info:$/;"	c
+DictPrint	SEUtility/File_RW.py	/^def DictPrint(input_dict,out_file=stdout):$/;"	f
+ExportIndex	SEIndexer/ExportIndex.py	/^def ExportIndex(b_print = False,b_write_file = False,b_filter = True):$/;"	f
+ExtractField	SEPreprocess/ExtractField.py	/^def ExtractField():$/;"	f
+FileFilter	SEIndexer/SEFilter.py	/^def FileFilter(filename):$/;"	f
+FormatSql	SEPreprocess/FormatSql.py	/^def FormatSql(bDisplay = False,bUserInput = False):$/;"	f
+Globle_Db	SEPreprocess/MysqlConnection.py	/^Globle_Db = Db_Access_Info()$/;"	v
+HOME_PATH	SEIndexer/__init__.py	/^HOME_PATH = '..\/'$/;"	v
+HOME_PATH	SEPreprocess/__init__.py	/^HOME_PATH = '..\/'$/;"	v
+HOME_PATH	SESearcher/__init__.py	/^HOME_PATH = '..\/'$/;"	v
+HOME_PATH	SEUtility/__init__.py	/^HOME_PATH = '..\/'$/;"	v
+ImportStopword	SEIndexer/SEFilter.py	/^def ImportStopword():$/;"	f
+Index	SEIndexer/Indexer.py	/^def Index():$/;"	f
+ListSearcher	SESearcher/ListSearcher.py	/^def ListSearcher(field,file_name):$/;"	f
+MysqlConnection	SEPreprocess/MysqlConnection.py	/^class MysqlConnection(object):$/;"	c
+ReadConfig	SEPreprocess/ReadConfig.py	/^def ReadConfig(bDisplay = False):$/;"	f
+ReadFile	SEUtility/File_RW.py	/^def ReadFile(filename):$/;"	f
+ReadIntoDict	SEUtility/File_RW.py	/^def ReadIntoDict(filename):$/;"	f
+SE_CONFIG_PATH	SEPreprocess/ReadConfig.py	/^SE_CONFIG_PATH = '..\/..\/config\/config.xml'$/;"	v
+Search	SESearcher/Searcher.py	/^def Search(bUserInput=False,command=""):$/;"	f
+SetPrint	SEUtility/File_RW.py	/^def SetPrint(input_set,out_file=stdout):$/;"	f
+ShowResult	SEUtility/ShowResult.py	/^def ShowResult(searcher,score_docs,bDisplayAll = True,bDisplayTotalNum = True):$/;"	f
+SortContent	SEIndexer/SESort.py	/^def SortContent(filename):$/;"	f
+SortDict	SEIndexer/SESort.py	/^def SortDict(_dict):$/;"	f
+StopwordFilter	SEIndexer/SEFilter.py	/^def StopwordFilter(_dict,_stopword_set):$/;"	f
+Ticker	SEUtility/Ticker.py	/^class Ticker(object):$/;"	c
+TimeCost	SEUtility/Ticker.py	/^    def TimeCost(self):$/;"	m	class:Ticker
+_IndexDocs	SEIndexer/Indexer.py	/^def _IndexDocs(writer,field_list,connection):$/;"	f
+_IndexField	SEIndexer/Indexer.py	/^def _IndexField(field_list,content):$/;"	f
+_IndexNumericField	SEIndexer/Indexer.py	/^def _IndexNumericField(doc,field_name,field_content):$/;"	f
+_IndexStringField	SEIndexer/Indexer.py	/^def _IndexStringField(doc,field_name,field_content):$/;"	f
+_InitIndexer	SEIndexer/Indexer.py	/^def _InitIndexer():$/;"	f
+__all__	__init__.py	/^__all__ = ['SEPreprocess']$/;"	v
+__cursor__	SEPreprocess/MysqlConnection.py	/^    __cursor__ = None$/;"	v	class:MysqlConnection
+__db__	SEPreprocess/MysqlConnection.py	/^    __db__ = None$/;"	v	class:MysqlConnection
+__init__	SEPreprocess/MysqlConnection.py	/^    def __init__(self):$/;"	m	class:Db_Access_Info
+__init__	SEPreprocess/MysqlConnection.py	/^    def __init__(self):$/;"	m	class:MysqlConnection
+__init__	SEUtility/Ticker.py	/^    def __init__(self):$/;"	m	class:Ticker
+_run	SESearcher/Searcher.py	/^def _run(searcher, analyzer,_config_dict):$/;"	f
+_run	SEUtility/Ticker.py	/^    def _run(self):$/;"	m	class:Ticker
+clean	clean.sh	/^clean()$/;"	f
+close	SEPreprocess/MysqlConnection.py	/^    def close(self):$/;"	m	class:MysqlConnection
+conn	SEPreprocess/MysqlConnection.py	/^    conn = MysqlConnection()$/;"	v
+db	SEPreprocess/MysqlConnection.py	/^    db = ''$/;"	v	class:Db_Access_Info
+end	SEUtility/Ticker.py	/^    def end(self):$/;"	m	class:Ticker
+execute	SEPreprocess/MysqlConnection.py	/^    def execute(self,query_cmd):$/;"	m	class:MysqlConnection
+get_cursor	SEPreprocess/MysqlConnection.py	/^    def get_cursor(self):$/;"	m	class:MysqlConnection
+host	SEPreprocess/MysqlConnection.py	/^    host = ''$/;"	v	class:Db_Access_Info
+input	SEPreprocess/MysqlConnection.py	/^    def input(self):$/;"	m	class:Db_Access_Info
+main	SEIndexer/ExportIndex.py	/^def main():$/;"	f
+main	SEIndexer/Indexer.py	/^def main():$/;"	f
+main	SEIndexer/SEFilter.py	/^def main():$/;"	f
+main	SEIndexer/SESort.py	/^def main():$/;"	f
+mysql_cursor	SEPreprocess/MysqlConnection.py	/^    mysql_cursor = conn.get_cursor()$/;"	v
+passwd	SEPreprocess/MysqlConnection.py	/^    passwd = ''$/;"	v	class:Db_Access_Info
+remove_pyc	clean.sh	/^remove_pyc()$/;"	f
+start	SEUtility/Ticker.py	/^    def start(self):$/;"	m	class:Ticker
+user	SEPreprocess/MysqlConnection.py	/^    user = ''$/;"	v	class:Db_Access_Info

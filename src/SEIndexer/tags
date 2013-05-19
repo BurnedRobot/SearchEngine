@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ExportIndex	ExportIndex.py	/^def ExportIndex(b_print = False,b_write_file = False,b_filter = True):$/;"	f
+HOME_PATH	__init__.py	/^HOME_PATH = '..\/'$/;"	v
+ImportStopword	SEFilter.py	/^def ImportStopword():$/;"	f
+Index	Indexer.py	/^def Index():$/;"	f
+SortContent	SESort.py	/^def SortContent(filename):$/;"	f
+SortDict	SESort.py	/^def SortDict(_dict):$/;"	f
+StopwordFilter	SEFilter.py	/^def StopwordFilter(_dict,_stopword_set):$/;"	f
+_IndexDocs	Indexer.py	/^def _IndexDocs(writer,field_list,connection):$/;"	f
+_IndexField	Indexer.py	/^def _IndexField(field_list,content):$/;"	f
+_IndexNumericField	Indexer.py	/^def _IndexNumericField(doc,field_name,field_content):$/;"	f
+_IndexStringField	Indexer.py	/^def _IndexStringField(doc,field_name,field_content):$/;"	f
+_InitIndexer	Indexer.py	/^def _InitIndexer():$/;"	f
+file_filter	SEFilter.py	/^def file_filter(filename):$/;"	f
+main	ExportIndex.py	/^def main():$/;"	f
+main	Indexer.py	/^def main():$/;"	f
+main	SEFilter.py	/^def main():$/;"	f
+main	SESort.py	/^def main():$/;"	f
